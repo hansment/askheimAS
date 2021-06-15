@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Askheim AS</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Logo</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="BackgroundVideo.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Tjenester</h2>
+            <!-- <h3>Askheim AS</h3> -->
+            <p>Konsulentoppdrag:</p>
+            <p>Av konsulenttjenester tar vi på oss oppdrag for plan- og oppmålingsfirmaer og anleggsfirmaer som har behov for kartlegging av natur, før eventuelle inngrep. Såkalt naturmangfoldsregistrering. Viltkartlegging og planlegging av vilthensyn er også aktuelle oppdrag, da spesielt hjortevilt. Vi har også samarbeidspartnere innenfor VA (vann og avløp). Innenfor skogbruk er alle typer oppdrag aktuelle; rådgivning, takst og planlegging for å nevne noe. Taksering av trær som allerede er hogd (kanskje uten grunneiers tillatelser) har vi også erfaring med. </p>
+                
+            <p>Skogsarbeid:</p>
+            <p>Alle typer manuelle skogsarbeider; planting, suppleringsplanting, ungskogpleie og hogst.</p>
+                
+            <p>Trefelling:</p>
+            <p>Vi løser de fleste oppdrag, fra små enkelttrær til store tomteryddingsprosjekter. De største trærne heises ned i samarbeid kranbil/mobilkran. Kunden stiller kravene, vi tilstreber å oppfylle ønskene.</p>
+                
+            <p>Beskjæring:</p>
+            <p>Beskjæring av alle typer frukttrær (ikke plantasjer) og de fleste andre treslag.</p>
+                
+            <p>Øvrige tjenester på forespørsel:</p>
+            <p>Gresstrimming, sprøyting, vegvedlikehold (skogsbilveg) for å nevne noe.</p>
+            <a href="kontaktoss.html">Kontakt Oss</a>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="omoss.html">Om Oss</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="kontaktoss.html">Kontakt Oss</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

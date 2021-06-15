@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Askheim AS</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Logo</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="BackgroundVideo.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Om Oss</h2>
+            <!-- <h3>Askheim AS</h3> -->
+            <p>Askheim AS er videreføringen av Askheim Trefelling som ble stiftet i 2010. Da var undertegnede fortsatt student ved daværende UMB på Ås.</p> 
+            <p>Etter 5 år, og med mastergrad i skogbruk var jeg ferdig utdannet våren 2014 ved det som undervegs ble NMBU.</p>
+            <p>Etter studiene jobbet jeg til sammen fire år i Mjøsen Skog, med alt fra administrering av skogkultur (planting og ungskogpleie), forvaltning av skogeiendommer, tømmerkjøp, driftsplanlegging og rådgivning.</p> 
+            <p>Det siste året ble det administrering av linjerydding for daværende Hafslund Nett og Gudbrandsdal Energi. Verdifull erfaring alt sammen.</p>
+            <p>Våren 2018 var tiden kommet for å satse for fullt på eget firma. Jeg takket pent for meg og satte i gang med trefelling og skogsarbeid, i tillegg til konsulenttjenester og takstoppdrag.</p> 
+            <p>Høsten samme året stiftet jeg også Juletrekompaniet AS sammen med en studiekamerat. Kundegruppen til dette firmaet er i all hovedsak bedriftskunder i Osloregionen.</p>
+            <p>Nå ser jeg fremover og kommer til å satse videre på områdene konsulenttjenester, manuelt skogsarbeid, trefelling og øvrige oppdrag tilknyttet skog, utmark, trær og eiendom.</p>
+                
+            <a href="kontaktoss.html">Kontakt Oss</a>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="omoss.html">Om Oss</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="kontaktoss.html">Kontakt Oss</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
